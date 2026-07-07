@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+/public/build/
+
+# Environment / secrets (never commit real keys)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Laravel runtime
+/storage/*.key
+/bootstrap/cache/*.php
